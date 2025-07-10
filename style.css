@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  margin-top: 40px;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bomba {
+  background-color: red;
+  color: white;
+}
+
+.safe {
+  background-color: green;
+  color: white;
+}
